@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'sass-rails', '~> 5.0.3'
   s.add_runtime_dependency 'bootstrap-sass', '~> 3.3.6'
-  s.add_runtime_dependency 'bootstrap-kaminari-views', '~> 0.0.3'
+  s.add_runtime_dependency 'bootstrap-kaminari-views', '>= 0.0.5'
 
   s.add_runtime_dependency 'solidus_core', '~> 1.2.0'
   s.add_runtime_dependency 'solidus_frontend', '~> 1.2.0'
