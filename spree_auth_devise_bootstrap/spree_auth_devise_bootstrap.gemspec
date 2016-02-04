@@ -1,8 +1,8 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_auth_devise_bootstrap'
-  s.version     = '2.4.0.rc3'
+  s.name        = 'solidus_auth_devise_bootstrap'
+  s.version     = '1.2.0'
   s.summary     = 'Switches out Spree Devise''s frontend for a bootstrap 3 powered frontend'
   s.description = s.summary
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'spree_auth_devise', '~> 2.2'
+  s.add_runtime_dependency 'solidus_auth_devise', '>= 1.3.0'
   s.add_runtime_dependency 'spree_bootstrap'
 
   s.add_development_dependency 'sqlite3'
