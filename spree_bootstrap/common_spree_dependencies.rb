@@ -36,7 +36,5 @@ group :test do
 end
 
 group :test, :development do
-  platforms :ruby_20, :ruby_21, :ruby_23 do
-    gem 'pry-byebug'
-  end
+  gem 'pry-byebug'
 end

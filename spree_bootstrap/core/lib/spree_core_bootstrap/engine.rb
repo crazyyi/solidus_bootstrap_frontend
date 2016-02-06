@@ -1,6 +1,6 @@
 module SpreeCoreBootstrap
   class Engine < Rails::Engine
-    require 'spree/core'
+    require 'solidus/core'
     isolate_namespace Spree
     engine_name 'spree_core_bootstrap'
 
