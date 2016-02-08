@@ -38,7 +38,7 @@ Installation
 Add the following to your gemfile **below** spree. The currently supported and updated branches are `master` (edge), `2-2-stable`, and `2-3-stable`.
 
 ```ruby
-gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', branch: 'master'
+gem 'solidus_bootstrap_frontend', github: 'crazyyi/solidus_bootstrap_frontend', branch: 'master'
 ```
 
 And run
@@ -128,4 +128,4 @@ bundle exec rspec spec
 Licence
 -------
 
-Copyright Alex James ([200creative.com](http://200creative.com)) and released under the BSD Licence.
+Copyright Alex James ([200creative.com](http://200creative.com)) and released under the BSD Licence. Modified for solidus by Crazyyi
